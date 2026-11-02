@@ -1,0 +1,89 @@
+@media (max-width: 480px) {
+    .ancho {
+        width: 92%;
+    }
+
+    .barra {
+        width: 100%;
+        min-height: 80px;
+        flex-wrap: wrap;
+        padding: 15px 20px 10px;
+    }
+
+    .logo img {
+        width: 165px;
+    }
+
+    .icono_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 36px;
+        margin-right: 12px;
+        color: var(--verde);
+        font-size: 34px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
+        width: 100%;
+        margin-top: 15px;
+        padding: 8px 20px;
+        background-color: var(--gris);
+    }
+
+    .menu ul {
+        display: block;
+    }
+
+    .menu li {
+        padding: 13px 0;
+        border-bottom: 1px dotted var(--negro);
+    }
+    
+    .menu a {
+        display: block;
+    }
+
+    .fondo_principal {
+        min-height: 395px;
+        background-position: center;
+    }
+
+    .fondo_principal h1 {
+        font-size: 32px;
+        line-height: 1.25;
+    }
+
+    .servicios {
+        padding-top: 40px;
+        padding-bottom: 55px;
+    }
+
+    .servicios h2 {
+        font-size: 29px;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+    }
+
+    .tarjetas {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 55px;
+    }
+
+    .tarjeta {
+        min-height: 295px;
+        padding: 35px 25px;
+    }
+
+    .tarjeta p {
+        font-size: 16px;
+    }
+
+}

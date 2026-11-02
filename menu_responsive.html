@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea5</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="movil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="barra ancho">
+            <figure class="logo">
+                <img src="imagenes/logo_arriba.png" alt="Organica, The Agriculture Farm">
+            </figure>
+
+            <a class="icono_menu" id="btn_menu" href="#">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            </a>
+
+            <nav id="cajamenu" class="menu">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Nuestros Productos</a></li>
+                    <li><a href="#">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="fondo_principal">
+            <div class="ancho contenido_principal">
+                <h1>Cultivamos verduras orgánicas<br>y las traemos a tu mesa</h1>
+            </div>
+        </section>
+
+        <section class="servicios ancho">
+            <h2>Nuestros Servicios</h2>
+            <p class="subtitulo">Lo que ofrecemos</p>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <img src="imagenes/icono1.png" alt="">
+                    <h3>Ganado Vacuno</h3>
+                    <p>Carne de res producida sin ingeniería genética, uso de radiación ionizante o lodos de depuradora.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="imagenes/icono2.png" alt="">
+                    <h3>Productos Lácteos</h3>
+                    <p>Los productos lácteos como la leche, el queso y el yogur contienen los nutrientes que su cuerpo necesita.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="imagenes/icono3.png" alt="">
+                    <h3>Frutas de la Huerta</h3>
+                    <p>Cubre todo lo que necesita saber para cultivar y comercializar con éxito sus propias frutas orgánicas de huerta.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="imagenes/logo_abajo.png" alt="Organica, The Agriculture Farm">
+    </footer>
+
+    <script>
+    $("#btn_menu").click(function(){
+    $("#cajamenu").slideToggle();
+    });
+    </script>
+</body>
+</html>
